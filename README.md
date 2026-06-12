@@ -1,6 +1,12 @@
 <h1 align="center">Grogu 🚀</h1>
 
 <p align="center">
+  <a href="https://gitlab.com/Marco-A-Silva/grogu">
+    <img src="https://img.shields.io/badge/Ver_Repositorio_en_GitLab-orange?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab Repo">
+  </a>
+</p>
+
+<p align="center">
   <em>A scalable, distributed Discord bot architecture built for high availability and modularity.</em>
 </p>
 
@@ -37,6 +43,8 @@ El sistema utiliza un flujo de trabajo de integración y despliegue continuo (CI
 ### ¿Cómo empezar?
 Basta con trabajar sobre el repositorio:
 
+* Importante: para poder usar esto necesitas crear dos variables D_USER y D_PASSWORD en gitlab en las settings de CI/CD que corresponden a usuario y contraseña de docker hub, tambien precisarias un runner y registrarlo, sino podes modificarlo para obviar estas cosas *
+
 1. **Fork & Clone:** Haz un fork del repositorio y clónalo localmente.
 ```bash
-   git clone https://gitlab.com/Marco-A-Silva/grogu.git
+   git clone [https://gitlab.com/Marco-A-Silva/grogu.git](https://gitlab.com/Marco-A-Silva/grogu.git)
