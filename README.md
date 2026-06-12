@@ -43,7 +43,8 @@ El sistema utiliza un flujo de trabajo de integración y despliegue continuo (CI
 ### ¿Cómo empezar?
 Basta con trabajar sobre el repositorio:
 
-* Importante: para poder usar esto necesitas crear dos variables D_USER y D_PASSWORD en gitlab en las settings de CI/CD que corresponden a usuario y contraseña de docker hub, tambien precisarias un runner y registrarlo, sino podes modificarlo para obviar estas cosas *
+**Importante: para poder usar esto necesitas crear dos variables D_USER y D_PASSWORD en gitlab en las settings de CI/CD que corresponden a**
+**usuario y contraseña de docker hub, tambien precisarias un runner y registrarlo, sino podes modificarlo para obviar estas cosas**
 
 1. **Fork & Clone:** Haz un fork del repositorio y clónalo localmente.
 ```bash
